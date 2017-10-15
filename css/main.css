@@ -9,7 +9,7 @@
   background: #000;
   border-radius: 10px;
   content: attr(data-tooltip);
-  color: #fff;
+  color: #f00;
   display: none;
   left: 0;
   padding: 10px;
