@@ -1,0 +1,10 @@
+@mixin fa-info() {
+    position: relative;
+    &:after {
+        content: "\f129";
+        color: #f00;
+        font-family: FontAwesome;
+        position: absolute;
+        right: -10px;
+    }
+}

@@ -1,0 +1,28 @@
+.tooltip {
+    border-bottom: 1px dashed #999;
+    cursor: help;
+    padding-bottom: 3px;
+    position: relative;
+
+    &:after {
+        background: #000;
+        border-radius: 10px;
+        content: attr(data-tooltip);
+        color: #fff;
+        // bottom: 0;
+        display: none;
+        left: 0;
+        padding: 10px;
+        position: absolute;
+        top: 25px;
+        width: 100px;
+    }
+
+    &:hover:after {
+        display: inline-block;
+    }
+
+    .fa {
+        padding-left: 3px;
+    }
+}
